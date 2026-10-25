@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="OWASP Security Academy shield logo">
+  <defs>
+    <linearGradient id="favicon-shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00F5A0" />
+      <stop offset="100%" stop-color="#00C2FF" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#080B12" />
+  <path d="M32 8 52 16v16c0 12-8.4 20.6-20 24C20.4 52.6 12 44 12 32V16z" fill="url(#favicon-shield)" opacity="0.18" />
+  <path d="M32 8 52 16v16c0 12-8.4 20.6-20 24C20.4 52.6 12 44 12 32V16z" fill="none" stroke="url(#favicon-shield)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="m23 32 6.5 6.5L42 24" fill="none" stroke="#00F5A0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,33 @@
+{
+  "name": "owasp-security-academy",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "OWASP Security Academy — an interactive, browser-based learning platform for the OWASP Top 10:2025 web application security risks.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.545.0",
+    "prismjs": "^1.30.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.4",
+    "recharts": "^3.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/node": "^24.9.1",
+    "@types/prismjs": "^1.26.5",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9"
+  }
+}

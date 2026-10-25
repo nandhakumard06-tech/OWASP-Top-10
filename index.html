@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <meta
+      name="description"
+      content="OWASP Security Academy — learn the OWASP Top 10:2025 web application security risks with interactive lessons, safe labs, quizzes and progress tracking."
+    />
+    <meta name="theme-color" content="#080B12" />
+    <title>OWASP Security Academy — Learn. Explore. Secure.</title>
+    <script>
+      // Apply the stored theme before first paint to avoid a flash of the wrong theme.
+      (function () {
+        try {
+          var stored = window.localStorage.getItem('osa.progress.v1');
+          var theme = stored ? JSON.parse(stored).settings.theme : null;
+          if (theme === 'light') {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          }
+        } catch (error) {
+          /* Corrupt or unavailable storage: fall back to the default dark theme. */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
